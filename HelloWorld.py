@@ -38,12 +38,28 @@
 
 # operators
 
-a=10
-b=6
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a**b)
-print(a//b)
+# a=10
+# b=6
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a**b)
+# print(a//b)
 
+# w1='program'
+# w2='program'
+
+# print(w1 is w2)
+
+# a=257
+# b=2555
+# print(a is b)
+# print(id(a))
+# print(id(b))
+
+# starting out with functions
+def welcome():
+    print("welcome to my code ,hope you learning some great stuff")
+
+# welcome()
