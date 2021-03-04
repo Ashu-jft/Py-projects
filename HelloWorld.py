@@ -65,9 +65,24 @@
 # welcome()
 
 
-##########################33
+##########################
 
-a=10
+# a=10
 
-print(a)
+# # print(a)
+# def function1():
+#     a=100
+#     def function2():
+#         a=1001
+#         print("here")
+#         print(a)
+#     function2()
+#     print(a)
+# function1()
+# # print(a)
 
+#lambda function
+
+x = lambda a:a*a
+
+print(x(2))
