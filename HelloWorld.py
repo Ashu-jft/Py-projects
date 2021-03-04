@@ -59,7 +59,9 @@
 # print(id(b))
 
 # starting out with functions
-def welcome():
-    print("welcome to my code ,hope you learning some great stuff")
+# def welcome():
+#     print("welcome to my code ,hope you learning some great stuff")
 
 # welcome()
+
+
