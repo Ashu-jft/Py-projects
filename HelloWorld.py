@@ -99,11 +99,22 @@
 #tuples are immutable so fast to traverse
 #sets do not retain order and repition is not allowed
 
+########input is a string , so i type converted it######
+# y=int(input("hello , enter your age"))
+# if(y==1):
+#     print("wow")
+
+
 
 
 #####################################
 #string formatting
 #####################################
 
+# string = {"name":"ashu","age":21}
+# # print("hi this is " + string["name"] + " I am " + str(string["age"]))
+# sentence ="hi my name is {} and I am {} years old".format(string["name"],string["age"])
+# print(sentence)
 
-print()
+#####################################
+
