@@ -83,6 +83,27 @@
 
 #lambda function
 
-x = lambda a:a*a
+# x = lambda a:a*a
 
-print(x(2))
+# print(x(2))
+
+
+#############################
+
+#learned sets,tuples and lists
+#lists: []
+#sets:  {}
+#tuples:()
+
+#lists are mutable
+#tuples are immutable so fast to traverse
+#sets do not retain order and repition is not allowed
+
+
+
+#####################################
+#string formatting
+#####################################
+
+
+print()
