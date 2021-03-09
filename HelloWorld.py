@@ -135,15 +135,28 @@
 # print(stud1.fname , stud1.lname)
 
 ####inheritance ####
-class Parent:
-    def __init__(self,fname,lname):
-        self.fname=fname
-        self.lname=lname
-    def print_name(self):
-        print(self.fname,self.lname)
+# class Parent:
+#     def __init__(self,fname,lname):
+#         self.fname=fname
+#         self.lname=lname
+#     def print_name(self):
+#         print(self.fname,self.lname) #we are using it for printing 
 
 
-class Children(Parent): #we are passing the class as parameter
-    pass
-x= Children ("hello" , "bunny") 
-x.print_name()
+# class Children(Parent): #we are passing the class as parameter
+#     pass
+# x= Children ("hello" , "bunny") 
+# x.print_name()
+
+##########################################################
+#json#
+##########################################################
+
+
+# import json
+# x = '{"name":"ashu","age":"21","city":"noida"}'
+# y=json.loads(x) #converts json to python
+# print(y["city"])
+
+
+
