@@ -162,13 +162,22 @@
 ################################################################
 #python to json
 ################################################################
-import json
-x={
-    "name":"ashu",
-    "age":"20",
-    "city":"noida"
-}
-y=json.dumps(x)
-print(y)
+# import json
+# x={
+#     "name":"ashu",
+#     "age":"20",
+#     "city":"noida"
+# }
+# y=json.dumps(x , indent=4)
+# print(y[6])
 
 ############################################
+#try except
+############################################
+x=10/0
+try:
+    print("congrats,nice job the program ran successfully ,the value of x is {}".format(x))
+except ZeroDivisionError:
+    print("oops there is an error , no problem keep trying")
+finally:
+    print("ok")
