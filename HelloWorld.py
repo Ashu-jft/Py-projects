@@ -117,4 +117,33 @@
 # print(sentence)
 
 #####################################
+#classes and objects#
+#####################################
 
+# class Person:
+#     x=7
+# obj1 = Person()
+# obj1.x=5
+# print(obj1.x)
+# print(Person.x)
+
+# class Student:
+#     def __init__(self,fname,lname):
+#         self.fname=fname
+#         self.lname=lname
+# stud1 = Student ("adi","ashu")
+# print(stud1.fname , stud1.lname)
+
+####inheritance ####
+class Parent:
+    def __init__(self,fname,lname):
+        self.fname=fname
+        self.lname=lname
+    def print_name(self):
+        print(self.fname,self.lname)
+
+
+class Children(Parent): #we are passing the class as parameter
+    pass
+x= Children ("hello" , "bunny") 
+x.print_name()
